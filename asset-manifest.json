@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PhoneCheck/static/css/main.620510c3.css",
+    "main.js": "/PhoneCheck/static/js/main.ae590dc7.js",
+    "static/js/544.ebbd5ede.chunk.js": "/PhoneCheck/static/js/544.ebbd5ede.chunk.js",
+    "index.html": "/PhoneCheck/index.html",
+    "main.620510c3.css.map": "/PhoneCheck/static/css/main.620510c3.css.map",
+    "main.ae590dc7.js.map": "/PhoneCheck/static/js/main.ae590dc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.620510c3.css",
+    "static/js/main.ae590dc7.js"
+  ]
+}
