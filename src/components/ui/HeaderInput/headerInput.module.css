@@ -1,0 +1,51 @@
+.inputWrapper {
+  background: var(--main-background-color);
+  padding: 15px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+
+.inputWrapper:hover,
+.inputWrapper.active {
+  outline: 1px var(--accent-color) solid;
+}
+
+.inputWrapper:hover .headerInput,
+.inputWrapper.active .headerInput {
+  width: 240px;
+}
+
+.headerInputBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--main-background-color);
+  color: white;
+  border: none;
+  transition: background-color var(--animation);
+}
+
+.headerInputBtn:hover,
+.headerInputBtn:focus {
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
+.headerInput {
+  background: none;
+  border: none;
+  width: 0;
+  transition: width var(--animation);
+  color: var(--main-text-color);
+  font-family: 'Space Mono', monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  outline: none;
+}
+
+.headerInput:focus {
+  width: 240px;
+}
